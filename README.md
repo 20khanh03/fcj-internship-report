@@ -4,15 +4,19 @@
 
 ## AWS First Cloud Journey 2026 - Internship Report
 
-> **Internship period:** March – May, 2026  
-> **Program:** AWS First Cloud Journey – 2026  
-> **University:** SaiGon University  
+**Internship period:** March – May, 2026  
+**Program:** AWS First Cloud Journey – 2026  
+**University:** SaiGon University  
+
+# AI English Learning App
+
+An AI-powered English learning application designed to provide an interactive and personalized learning experience through conversation, spaced repetition, and progress tracking.
 
 ## Live Demo
 
 Deployed via **GitHub Actions**:
 
-[Internship_Report](https://github.com/20khanh03/First-Cloud-Journey-Internship-Report)
+[**Internship_Report**](https://github.com/20khanh03/First-Cloud-Journey-Internship-Report)
 
 ---
 
@@ -25,7 +29,6 @@ Deployed via **GitHub Actions**:
 ## Repository Structure
 
 ```
- SharonNg1029-FCJ-Workshop/
 ├──  content/
 │   ├──  1-Worklog/           # Weekly progress reports (Week 1-12)
 │   ├──  2-Proposal/          # Internship project proposal

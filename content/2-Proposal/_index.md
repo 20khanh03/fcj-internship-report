@@ -138,7 +138,7 @@ The stack is selected based on one principle: **best fit for an 8-week solo deve
 
 ### System Architecture
 
-![Lexi Architecture Diagram](/images/2-Proposal/lexi-architecture.jpeg)
+![Lexi Architecture Diagram](images/2-Proposal/lexi-architecture.jpeg)
 
 ---
 

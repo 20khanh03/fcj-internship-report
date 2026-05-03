@@ -16,13 +16,13 @@ Core services: API Gateway (REST), Lambda handles business logic, DynamoDB store
 
 ## Contents
 
-1. [System Overview and Architecture](5.1-Workshop-overview/)
-2. [Environment Preparation & AWS Account Setup](5.2-Prerequiste/)
-3. [Backend Deployment: DynamoDB, Lambda, API Gateway, Cognito](5.3-Backend/)
-4. [Frontend Development: Amplify, Route 53, CloudFront, WAF](5.4-Frontend/)
-5. [CI/CD_Pipeline](5.5-CI-CD/)
-6. [CloudWatch](5.6-Cloud-Watch/)
-7. [Clean up](5.7-Clean-up/)
+1. [System Overview and Architecture](5.1-Workshop-overview/) - Understand the serverless architecture and key components
+2. [Environment Preparation & AWS Account Setup](5.2-Prerequiste/) - Install tools and configure AWS credentials
+3. [Backend Deployment: DynamoDB, Lambda, API Gateway, Cognito](5.3-Backend/) - Deploy backend infrastructure and services
+4. [Frontend Development: Amplify, Route 53, CloudFront, WAF](5.4-Frontend/) - Build and deploy React frontend with CDN
+5. [CI/CD Pipeline](5.5-CI-CD/) - Set up automated build, test, and deployment
+6. [CloudWatch Monitoring](5.6-Cloud-Watch/) - Configure logging, dashboards, and alarms
+7. [Clean up](5.7-Clean-up/) - Properly remove AWS resources to avoid costs
 
 ## Experience Objectives
 

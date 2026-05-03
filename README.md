@@ -17,7 +17,7 @@ An AI-powered English learning application designed to provide an interactive an
 
 Deployed via **GitHub Actions**:
 
-[https://github.com/20khanh03/](https://github.com/20khanh03/First-Cloud-Journey-Internship-Report)
+[https://github.com/20khanh03/](https://20khanh03.github.io/First-Cloud-Journey-Internship-Report/))
 
 ---
 

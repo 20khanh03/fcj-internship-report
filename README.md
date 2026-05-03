@@ -4,10 +4,10 @@
 
 ## AWS First Cloud Journey 2026 - Internship Report
 
-> **Internship period:** March 9 – May 2, 2026  
-> **Program:** AWS First Cloud Journey
-> **University:** SaiGon University  
-> **Project:** Lexi - AI English Speaking Tutor
+^ - **Internship period:** March 9 – May 2, 2026  
+^ - **Program:** AWS First Cloud Journey
+^ - **University:** SaiGon University  
+^ - **Project:** Lexi - AI English Speaking Tutor
 
 # AI English Learning App
 

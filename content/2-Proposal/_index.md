@@ -119,7 +119,7 @@ The stack was chosen based on one criterion: **best fit for an 8-week timeline f
 
 ### System Architecture
 
-![Lexi Architecture Diagram](images/2-Proposal/lexi-architecture.jpeg)
+![Lexi Architecture Diagram](/images/2-Proposal/lexi-architecture.jpeg)
 
 **Architecture Description:**
 

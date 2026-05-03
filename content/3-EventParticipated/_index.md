@@ -6,54 +6,16 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-During the First Cloud Journey internship (08/09/2025 – 28/12/2025), I actively participated in five professional events organized by AWS Vietnam and its partners. These events not only helped me stay updated with the latest technology trends but also expanded my network and strengthened my practical knowledge.
+During this short internship, I was fortunate enough to participate in AWS events, gaining valuable knowledge, engaging experiences, and memorable moments. These activities not only enriched my learning process but also included meaningful gifts, contributing to a more fulfilling journey.
 
-### [Event 1](3.1-Event1/)
+### [Event ]
 
-&emsp;**Event Name:** Kick-off AWS First Cloud Journey Workforce – OJT FALL 2025
+&emsp;**Event Name:** AWS First Cloud AI Journey Community Day 2026
 
-&emsp;**Time:** 08:30 – 12:00, Saturday, 06/09/2025
+&emsp;**Time:** 09:00 – 12:00, Saturday, 21/03/2026
 
-&emsp;**Location:** 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City
-
-&emsp;**Role:** Attendee
-
-### [Event 2](3.2-Event2/)
-
-&emsp;**Event Name:** Vietnam Cloud Day 2025 – Ho Chi Minh City Connect Edition for Builders
-
-&emsp;**Time:** 09:00 – 17:00, Thursday, 18/09/2025
-
-&emsp;**Location:** 36th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City
-
-&emsp;**Role:** Attendee (participated in track: Migration & Modernization track)
-
-### [Event 3](3.3-Event3/)
-
-&emsp;**Event Name:** AWS Cloud Mastery Series #1 – AI/ML & Generative AI
-
-&emsp;**Time:** 08:30 – 12:00, Saturday, 15/11/2025
-
-&emsp;**Location:** 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, SaiGon Ward, Ho Chi Minh City.
 
 &emsp;**Role:** Attendee
 
-### [Event 4](3.4-Event4/)
-
-&emsp;**Event Name:** AWS Cloud Mastery Series #2 – DevOps on AWS
-
-&emsp;**Time:** 08:30 – 17:00, Monday, 17/11/2025
-
-&emsp;**Location:** 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City
-
-&emsp;**Role:** Attendee
-
-### [Event 5](3.5-Event5/)
-
-&emsp;**Event Name:** AWS Cloud Mastery Series #3 – Cloud Security Best Practices
-
-&emsp;**Time:** 08:30 – 12:00, Saturday, 29/11/2025
-
-&emsp;**Location:** 26th Floor, Bitexco Financial Tower, 2 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City
-
-&emsp;**Role:** Attendee
+![EventParticipated ](/images/3-EventParticipated/EventParticipated.jpg)

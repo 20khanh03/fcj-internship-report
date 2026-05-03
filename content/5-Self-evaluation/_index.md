@@ -7,9 +7,7 @@ pre: " <b> 5. </b> "
 alwaysopen: true
 ---
 
-From **September 08, 2025 to December 28, 2025**, I had the honor of participating in the **First Cloud Journey** program organized by AWS Vietnam. This was an invaluable opportunity for me to gain hands-on experience with cloud technology, contribute to building and deploying solutions on the AWS platform, and work alongside experienced mentors and talented fellow interns.
-
-Through weeks of learning, hands-on practice, and the execution of our group project — **Serverless Student Management System**, a fully serverless student management platform (similar to university LMS systems) — I significantly strengthened and expanded my knowledge of AWS services including **Route 53, Cognito, Amplify, WAF, API Gateway, DynamoDB, S3, EventBridge, AppSync (GraphQL), SES, CloudFront, and CloudWatch**. At the same time, I improved my programming skills, teamwork abilities, presentation skills, and gained practical experience working with **GitLab**.
+From March 9th, 2026 to May 2nd, 2026, I had the honor of participating in the **First Cloud Journey** program organized by AWS Vietnam. This was a valuable opportunity for me to gain practical experience with cloud technology, participate in building and deploying solutions on the AWS platform, and work alongside a team of mentors and talented interns.
 
 Regarding work attitude, I consistently maintained a serious learning mindset, fully complied with the program’s rules and processes, proactively collaborated with team members, and strictly respected deadlines and established workflows.
 

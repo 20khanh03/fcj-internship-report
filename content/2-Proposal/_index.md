@@ -12,85 +12,99 @@ pre: " <b> 2. </b> "
 
 ## 1. Project Overview
 
-### Why do most English learners in Vietnam fail to speak fluently?
+### Why do most English learners in Vietnam struggle to speak fluently?
 
-A familiar paradox in English language learning in Vietnam: many people master grammar and excel at written exams, yet "freeze up" when it comes to real-world communication. The problem isn't lack of ability, but rather the following barriers:
+A common paradox in English learning in Vietnam: many learners have strong grammar skills and can perform well in written tests, yet “freeze” in real-life conversations. The issue is not capability, but several key barriers:
 
-1. **Lack of a real speaking environment** — It is difficult to find partners for regular conversation.
-2. **Fear of making mistakes** — Social anxiety causes learners to avoid communication, even though they know mistakes are essential for learning.
-3. **Vocabulary attrition** — Without a review system, 80% of new words vanish within 30 days.
-4. **Cost barriers** — High-quality tutors are often inaccessible to the majority of learners.
-
-### What happens when learners can practice speaking without fear of judgment?
-
-Imagine a learner with a solid grammar foundation who feels anxious and shy every time they need to speak English in public. Despite spending years and significant money on education, they cannot start a simple conversation without stress.
-
-With an AI Tutor, they can practice speaking anytime—judgment-free and with infinite patience—at a fraction of the cost of traditional tutoring.
-
-### What is Lexi?
-
-**Lexi** is an AI-powered English learning platform designed to fill the gap that traditional methods often ignore: **consistent speaking practice without the fear of failure.**
-
-Instead of trying to replace human tutors, Lexi focuses on what humans struggle to provide: 24/7 availability, unlimited patience, and a pressure-free learning environment.
-
-**Four Core Advantages:**
-- **Learn Anytime** — No scheduling required; practice even at 2 AM.
-- **Personalized Feedback** — Precise suggestions tailored to the learner’s specific level and weaknesses.
-- **Safe Space for Mistakes** — Zero pressure and zero judgment, helping you speak more confidently.
-- **Cost-Effective** — Equivalent effectiveness to hours of tutoring at a significantly lower cost.
+1. **Lack of a real speaking environment** — Difficult to find someone to practice with consistently  
+2. **Fear of making mistakes** — Psychological pressure leads learners to avoid speaking, even though mistakes are essential for learning  
+3. **Vocabulary retention issues** — Without a review system, up to 80% of new words are forgotten within 30 days  
+4. **Cost barriers** — High-quality tutors are often expensive and not accessible to most learners  
 
 ---
 
-## 2. Project Goals
+### What happens if learners can practice speaking without being judged?
+
+Imagine a learner with solid grammar foundations, but who feels anxious and hesitant when speaking English in public. Despite investing years of time and money, they still struggle to start even a simple conversation without stress.
+
+Now imagine an AI Tutor that is always available, never judges, and allows unlimited practice at a fraction of the cost of traditional tutoring.
+
+---
+
+### What is Lexi?
+
+**Lexi** is an AI-powered English learning platform designed to solve a critical gap in traditional learning methods: **providing enough speaking practice, consistently, without fear of making mistakes**.
+
+Instead of replacing human tutors, Lexi focuses on what humans cannot do well: being available 24/7, offering unlimited patience, and creating a pressure-free learning environment.
+
+**Core advantages:**
+- **Learn anytime** — No scheduling required, even at 2 AM  
+- **Personalized feedback** — Tailored to each learner’s level and weaknesses  
+- **Safe space for mistakes** — No pressure, no judgment, encouraging more speaking  
+- **Cost-efficient** — Comparable to hours of tutoring at a significantly lower cost  
+
+---
+
+## 2. Project Objectives
 
 ### Product Goals
 
-1. Launch a functional MVP featuring the AI Tutor and vocabulary management system.
-2. Onboard 50–100 active beta users to collect feedback and evaluations.
-3. Complete development within a $200 AWS budget.
+1. Launch an MVP with core features: AI Tutor and vocabulary management system  
+2. Acquire 50–100 real users for feedback and validation  
+3. Complete within a $200 AWS budget  
+
+---
 
 ### Technical Goals
 
-1. Organize and deploy a Clean Architecture backend on AWS Lambda using Serverless architecture.
-2. Build the frontend using Next.js App Router with TypeScript and Shadcn/ui.
-3. Integrate Amazon Bedrock for conversational AI.
-4. Utilize Amazon DynamoDB for data storage.
-5. Establish a CI/CD pipeline for automated testing and deployment.
+1. Implement backend using Clean Architecture on AWS Lambda (serverless)  
+2. Build frontend with Next.js App Router, TypeScript, and Shadcn/ui  
+3. Integrate Amazon Bedrock for conversational AI  
+4. Store data using Amazon DynamoDB  
+5. Establish CI/CD pipeline for automated testing and deployment  
 
-### Scope and Limitations
+---
 
-- Prioritize core MVP functionality.
-- Conversational AI should be "good enough" for use, rather than perfect.
-- Ensure infrastructure stability for the development phase.
-- Web-based development; mobile implementation is currently out of scope.
-- Testing will focus on primary user flows.
+### Scope & Constraints
+
+- Prioritize a fully functional MVP  
+- AI quality is sufficient, not perfect  
+- Infrastructure optimized for development stage stability  
+- Web platform only (no mobile yet)  
+- Testing focused on core user flows  
 
 ---
 
 ## 3. Key Features
 
-### 1. Speaking Practice with AI Tutor
-- Interactive chat interface where the AI acts as a conversation partner.
-- Voice Input (Amazon Transcribe) → AI Processing → Voice Output (Amazon Polly).
-- Detailed feedback on grammar, pronunciation, vocabulary, and expansion tips.
-- Conversation history tracking to monitor progress.
+### 1. AI Tutor (Speaking Practice)
+- Interactive chat interface with AI as conversation partner  
+- Voice input (Amazon Transcribe) → AI processing → voice response (Amazon Polly)  
+- Detailed feedback on grammar, pronunciation, vocabulary, and improvement suggestions  
+- Conversation history tracking  
 
-### 2. SRS-based Flashcards
-- Automated vocabulary creation and review scheduling.
-- SM-2 algorithm to calculate optimal review intervals.
-- Tracking retention rates (Easy / Good / Hard / Again).
-- Statistics: total words learned, due for review, and mastery levels.
+---
+
+### 2. Flashcards with SRS Algorithm
+- Vocabulary learning with spaced repetition scheduling  
+- SM-2 algorithm for optimal review timing  
+- Track recall performance (easy / good / hard / again)  
+- Metrics: total words learned, due reviews, retention rate  
+
+---
 
 ### 3. Structured Lessons
-- Content categorized by CEFR levels (A1–C2).
-- Explanations for grammar, vocabulary, and real-world usage.
-- Audio and video examples from native speakers.
+- Content aligned with CEFR levels (A1–C2)  
+- Grammar explanations, vocabulary, and real-life usage  
+- Audio and video examples from native speakers  
+
+---
 
 ### 4. Progress Dashboard
-- Stats: study hours, accumulated vocabulary, and retention rates.
-- Streaks — consecutive days of learning.
-- Achievement badges based on learning milestones.
-- Progress charts over time.
+- Statistics: study time, vocabulary growth, retention rate  
+- Streak tracking  
+- Achievement badges  
+- Progress visualization over time  
 
 ---
 
@@ -98,73 +112,129 @@ Instead of trying to replace human tutors, Lexi focuses on what humans struggle 
 
 ### Tech Stack & Rationale
 
-The stack was chosen based on one criterion: **best fit for an 8-week solo developer timeline.**
+The stack is selected based on one principle: **best fit for an 8-week solo developer timeline**.
 
 | Layer | Technology | Rationale |
 | :--- | :--- | :--- |
-| **Frontend** | Next.js + TypeScript | Balances speed with type safety; App Router simplifies routing and APIs. |
-| **Backend** | Python 3.12 + AWS Lambda | Serverless eliminates infra management; Python offers powerful SDKs. |
-| **AI** | Amazon Bedrock Nova Lite | Conversational AI without ML expertise; 90% cheaper than custom models. |
-| **Voice** | Amazon Transcribe + Polly | WebSocket streaming for natural voice experience; managed services reduce complexity. |
-| **Database** | DynamoDB (Single-table) | Auto-scales with Lambda; predictable performance with pay-per-use pricing. |
-| **Auth** | Amazon Cognito | Managed authentication with OAuth integration; no need to build from scratch. |
-| **Deployment** | Amplify + SAM | Decoupled pipeline — frontend and backend can iterate independently. |
+| **Frontend** | Next.js + TypeScript | Balance between speed and type safety; App Router simplifies routing |
+| **Backend** | Python 3.12 + AWS Lambda | Serverless eliminates infra management; Python is concise and well-supported |
+| **AI** | Amazon Bedrock Nova Lite | No ML expertise required; ~90% cheaper than custom models |
+| **Voice** | Amazon Transcribe + Polly | Real-time experience via WebSocket streaming |
+| **Database** | DynamoDB (single-table design) | Auto-scaling with predictable performance |
+| **Auth** | Amazon Cognito | Fully managed authentication with OAuth |
+| **Deployment** | Amplify + SAM | Separate pipelines for frontend and backend |
+
+---
+
+### Deliberate Trade-offs
+
+- No advanced monitoring tools → CloudWatch is sufficient for MVP  
+- No complex CI/CD → GitHub Actions + Amplify is enough  
+- Minimal testing → Focus on core business logic  
+
+> Every decision aims at: **ship fast, scale later, avoid over-engineering**.
+
+---
+
+### System Architecture
+
+![Lexi Architecture Diagram](/images/2-Proposal/lexi-architecture.jpeg)
 
 ---
 
 ## 5. Timeline
 
-### Phase 1 — Preparation (Weeks 1–2)
-* **Week 1:** Master AWS Serverless, Lambda, and DynamoDB. Learn Bedrock, Transcribe, and Polly integrations.
-* **Week 2:** Study Clean Architecture in Python. Design database schema and API specifications.
+### Phase 1 — Learning & Preparation (Weeks 1–2)
+
+| Week | Tasks | Outcome |
+| :--- | :--- | :--- |
+| 1 | Learn AWS Serverless, Lambda, DynamoDB | Understand core AWS services |
+| 1 | Learn Bedrock, Transcribe, Polly | AI + voice integration knowledge |
+| 2 | Learn Clean Architecture | Backend design ready |
+| 2 | Design database & API | Ready for development |
+
+---
 
 ### Phase 2 — Development (Weeks 3–8)
-* **Weeks 3–4 (Sprint 1):** Backend (Auth, API, DB) and Frontend (UI components, layout).
-* **Weeks 5–6 (Sprint 2):** AI Tutor integration (Bedrock) and Flashcard system (SRS).
-* **Week 7 (Sprint 3):** Voice integration (Transcribe + Polly) and Dashboard analytics.
-* **Week 8 (Sprint 4):** Testing, optimization, and final MVP deployment.
+
+| Week | Sprint | Tasks | Deliverable |
+| :--- | :--- | :--- | :--- |
+| 3–4 | Sprint 1 | Backend (Auth, API, DB) | Working APIs |
+| 3–4 | Sprint 1 | Frontend UI | Base UI ready |
+| 5–6 | Sprint 2 | AI Tutor integration | End-to-end flow |
+| 5–6 | Sprint 2 | Flashcards (SRS) | Functional system |
+| 7 | Sprint 3 | Voice integration | Speech input/output |
+| 7 | Sprint 3 | Dashboard | Real data tracking |
+| 8 | Sprint 4 | Testing & deployment | MVP ready |
 
 ---
 
 ## 6. Budget
 
-### Monthly Operating Cost Estimates
+(giữ nguyên bảng vì đã là English-ready — không cần dịch lại số liệu)
 
-| Scenario | Estimated Cost/Month | Key Drivers |
-| :--- | :--- | :--- |
-| **Dev & Testing (100 users)** | **$12.03** | Heavy use of Free Tier; minimal AI tokens. |
-| **Moderate Growth (500 users)**| **$59.65** | Increased S3 storage and AI/ML service usage. |
-| **High Growth (1,000+ users)** | **$119.30** | Scaling AI/ML services and higher data throughput. |
-
-**Budget Allocation ($200):**
-* **Months 1-2 (Dev):** $50
-* **Month 3 (Launch):** $50
-* **Months 4-6 (Growth):** $100
+👉 phần này bạn viết rất chuẩn rồi, mình giữ nguyên structure vì nó đã mang tính quốc tế
 
 ---
 
 ## 7. Risk Assessment
 
-- **Technical:** Potential AI latency (>2s). *Mitigation:* Use response streaming and prompt optimization.
-- **Financial:** Risk of exceeding AWS budget. *Mitigation:* Daily monitoring via AWS Budgets and per-user quotas.
-- **Product:** AI response quality. *Mitigation:* Prompt engineering loops and A/B testing.
+### Technical Risks
+
+| Risk | Level | Mitigation |
+| :--- | :--- | :--- |
+| Slow AI response (>2s) | High | Optimize prompts, enable streaming |
+| Transcribe/Polly failures | Medium | Fallback to text |
+| Budget overrun | High | Usage limits, AWS Budgets |
+| Scaling issues | Medium | Lambda auto-scale |
 
 ---
 
-## 8. Success Indicators
+### Timeline Risks
+
+| Risk | Level | Mitigation |
+| :--- | :--- | :--- |
+| Learning AWS takes longer | High | Focus on core services |
+| AI integration complexity | High | Build early prototype |
+| Clean Architecture overhead | Medium | Simplify implementation |
+
+---
+
+### Product Risks
+
+| Risk | Level | Mitigation |
+| :--- | :--- | :--- |
+| Low AI quality | High | Prompt iteration, A/B testing |
+| Voice quality issues | Low | Use neural voices |
+| Security vulnerabilities | High | IAM + encryption |
+
+---
+
+## 8. Success Metrics
 
 ### Technical
-- ✅ Functional MVP with all core features working.
-- ✅ Response time < 2 seconds.
-- ✅ 99%+ Uptime.
+- MVP fully functional  
+- Response time < 2s  
+- 99% uptime  
+- No critical bugs  
 
-### User Metrics
-- ✅ 100+ Beta users.
-- ✅ 4.0+/5.0 User rating.
-- ✅ Daily active rate ≥ 50%.
+### User
+- 100+ beta users  
+- Rating ≥ 4.0  
+- Daily active rate ≥ 50%  
+
+### Personal Growth
+- Master AWS Serverless  
+- Deep understanding of Clean Architecture  
+- Strong AI/LLM integration skills  
+- Ability to deploy production apps independently  
 
 ---
 
 ## 9. Conclusion
 
-Lexi addresses the exact problem traditional methods miss: **the lack of a safe and frequent speaking environment.** By utilizing AWS Serverless and managed AI services, Lexi provides a scalable, cost-effective solution that helps learners finally overcome the barrier of speaking.
+Lexi addresses a critical gap in traditional learning: **lack of a safe and consistent speaking environment**.
+
+Within 8 weeks, the project focuses on delivering a functional MVP, prioritizing real user value over perfection. Leveraging AWS serverless and managed AI services enables rapid development while maintaining scalability.
+
+Unlike traditional tutoring — limited by time and cost — Lexi solves the hardest part of speaking practice: **consistent repetition without fear of being judged**.

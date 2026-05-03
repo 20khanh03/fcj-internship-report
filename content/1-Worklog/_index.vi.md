@@ -8,12 +8,11 @@ pre: "<b>1.</b> "
 
 Tổng hợp toàn bộ quá trình thực hiện dự án phát triển một ứng dụng học tiếng Anh tích hợp AI trong vòng **9 tuần** (từ 09/03/2026 đến 08/05/2026).
 
-Dự án được xây dựng theo hướng **serverless trên AWS**, tập trung vào việc tận dụng các dịch vụ managed để giảm thời gian triển khai và tối ưu chi phí. M
+Dự án được xây dựng theo hướng **serverless trên AWS**, tập trung vào việc tận dụng các dịch vụ managed để giảm thời gian triển khai và tối ưu chi phí.
 
 Trong quá trình thực hiện, dự án được chia thành các giai đoạn chính:
 
-**Tuần 1:**  
-[Tìm hiểu tổng quan về AWS, tạo tài khoản, làm quen IAM, AWS Console và các dịch vụ cơ bản.](1.1-week1/)
+**Tuần 1:** [Tìm hiểu tổng quan về AWS, tạo tài khoản, làm quen IAM, AWS Console và các dịch vụ cơ bản.](1.1-week1/)
 
 **Tuần 2:**  [Thực hành với EC2, S3 và VPC.](1.2-week2/)
 

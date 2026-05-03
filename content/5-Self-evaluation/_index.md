@@ -1,7 +1,7 @@
 ---
 title: "Self-Assessment"
 date: 2025-12-04
-weight: 5
+weight: 50
 chapter: false
 pre: " <b> 5. </b> "
 alwaysopen: true

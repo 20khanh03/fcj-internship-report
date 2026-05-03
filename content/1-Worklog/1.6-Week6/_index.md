@@ -1,37 +1,34 @@
 ---
-title: "Week 6 Worklog"
+title: "Week 6"
 date: 2025-10-12
-weight: 6
+weight: 16
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Week 6 Objectives:
+## Week 6 (13/04/2026 - 17/04/2026)
 
-- Learn Decoupling & Advanced Security.
-- Evaluate Project ideas.
+### Tasks Completed
 
-### Tasks to be carried out this week:
+- Reduced latency across the processing pipeline.
+- Improved review experience and interaction flow.
+- Fixed API errors and timeout issues.
+- Improved handling of concurrent requests.
+- Optimized data flow between frontend and backend.
+- Unified UI across modules.
+- Reduced unnecessary user interactions.
+- Polished overall user flow.
 
-| **Day** | **Tasks**                                                                                                                                                         | **Start**  | **Finish** | **References**                                          |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ------------------------------------------------------- |
-| 2       | - Learn Application Integration:<br>&emsp;+ SQS (Message Queue)<br>&emsp;+ SNS (Pub/Sub Notification)                                                             | 13/10/2025 | 14/10/2025 | [SQS vs SNS](https://aws.amazon.com/message-queue/sqs/) |
-| 3       | - Learn **Secure Architectures** (Part 2):<br>&emsp;+ Encryption (KMS)<br>&emsp;+ Secrets Manager (credential management)<br>&emsp;+ GuardDuty (threat detection) | 14/10/2025 | 15/10/2025 | [AWS KMS](https://aws.amazon.com/kms/)                  |
-| 4       | - Learn **AWS Amplify** (Hosting & Auth).<br>- Evaluate pros/cons of project ideas.                                                                               | 15/10/2025 | 15/10/2025 | [Amplify Framework](https://docs.amplify.aws/)          |
-| 5       | - Search for Reference Architecture for the topic “Student Management”.                                                                                           | 16/10/2025 | 16/10/2025 | —                                                       |
-| 6       | - Research more best practices for Serverless architectures.                                                                                                      | 17/10/2025 | 17/10/2025 | —                                                       |
+---
 
-### Week 6 Achievements:
+### Achievements
+- AI Tutor usable but not fully optimized.
+- Flashcard system working with basic tracking.
+- System integration achieved but still needs refinement.
 
-**1. Advanced Architecture:**
+---
 
-- Understood how Decoupled Architecture improves scalability and flexibility.
-- Learned encryption basics using KMS (at rest / in transit).
-- Understood secure credential management with Secrets Manager.
-
-**2. Project:**
-
-- Identified potential Frontend technology (Amplify).
-- Narrowed down project idea scope.
+### References
+- https://docs.aws.amazon.com/transcribe/latest/dg/what-is.html
 
 ---

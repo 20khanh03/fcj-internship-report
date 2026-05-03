@@ -1,38 +1,41 @@
 ---
-title: "Week 5 Worklog"
+title: "Week 5"
 date: 2025-10-05
-weight: 5
+weight: 15
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Week 5 Objectives:
+## Week 5 (06/04/2026 - 10/04/2026)
 
-- Learn Database Services.
-- Explore AWS Well-Architected Framework.
-- Kick off the Project idea.
+### Tasks Completed
 
-### Tasks to be carried out this week:
+**1. AI Tutor Speech-to-Speech Pipeline**
+- Integrated Amazon Transcribe for speech recognition.
+- Connected AWS Bedrock for conversational AI processing.
+- Integrated Amazon Polly for voice responses.
+- Tested multiple conversation scenarios for response tuning.
+- Handled edge cases such as unclear speech input.
 
-| **Day** | **Tasks**                                                                                                                                                                                    | **Start**  | **Finish** | **References**                                                                        |
-| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ------------------------------------------------------------------------------------- |
-| 2       | - Learn Database:<br>&emsp;+ RDS (SQL: MySQL, PostgreSQL)<br>&emsp;+ DynamoDB (NoSQL, Serverless)<br>&emsp;+ Compare use cases                                                               | 06/10/2025 | 07/10/2025 | [AWS Databases](https://aws.amazon.com/products/databases/)                           |
-| 3       | - Learn **AWS Well-Architected Framework**:<br>&emsp;+ 6 pillars (Operational Excellence, Security, Reliability, Performance, Cost, Sustainability)<br>- Study sample architecture diagrams. | 07/10/2025 | 08/10/2025 | [Well-Architected Tool](https://aws.amazon.com/well-architected-tool/)                |
-| 4       | - Project brainstorming.<br>- Analyze existing architecture models.                                                                                                                          | 08/10/2025 | 08/10/2025 | —                                                                                     |
-| 5       | - **Practice:**<br>&emsp;+ Create RDS Instance<br>&emsp;+ Connect EC2 to RDS (configure Security Group)                                                                                      | 09/10/2025 | 09/10/2025 | [RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html) |
-| 6       | - Research Serverless concepts (Lambda, API Gateway) for the project direction.                                                                                                              | 10/10/2025 | 10/10/2025 | [Serverless on AWS](https://aws.amazon.com/serverless/)                               |
+**2. Frontend Integration**
+- Developed AI chat interface.
+- Connected frontend with backend APIs.
+- Built flashcard review interface.
 
-### Week 5 Achievements:
+---
 
-**1. Database & Architecture:**
+### Achievements
 
-- Understood when to use Relational DB (RDS) vs Non-relational DB (DynamoDB).
-- Understood the 6 pillars of the Well-Architected Framework.
-- Successfully connected a 2-tier model (App + DB).
+**1. Functional AI conversation pipeline**
+- Enabled end-to-end voice interaction with AI.
+- Established core AI Tutor functionality.
+- Automated review scheduling based on user performance.
 
-**2. Project:**
+**2. System-level integration achieved**
 
-- Started team workflow and requirement analysis.
-- Defined initial direction using Serverless architecture.
+---
+
+### References
+- https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html
 
 ---

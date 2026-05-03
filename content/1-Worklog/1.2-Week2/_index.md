@@ -1,38 +1,69 @@
 ---
-title: "Week 2 Worklog"
+title: "Week 2"
 date: 2025-09-14
-weight: 2
+weight: 12
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Week 2 Objectives:
+## Week 2 (16/03/2026 - 20/03/2026)
 
-- Learn about the Storage Service (S3).
-- Learn how to design architecture diagrams on paper.
-- Participate in a technology event.
+### Tasks Completed
 
-### Tasks to be carried out this week:
+**1. EC2 (Compute) Exploration and Deployment**
+- Studied AWS documentation and tutorials on Amazon EC2.
+- Launched and configured EC2 instances.
+- Connected to Linux instances via SSH using VS Code.
+- Installed and configured a web server (Nginx).
 
-| **Day** | **Tasks**                                                                                                                                                                      | **Start**  | **Finish** | **References**                                                                                      |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | --------------------------------------------------------------------------------------------------- |
-| 2       | - Learn about Amazon S3:<br>&emsp;+ Bucket & Object<br>&emsp;+ Storage Classes (Standard, Intelligent-Tiering...)<br>&emsp;+ Bucket Policy & ACL                               | 15/09/2025 | 15/09/2025 | [Amazon S3 Overview](https://aws.amazon.com/s3/)                                                    |
-| 3       | - Learn AWS architecture diagramming:<br>&emsp;+ Draw.io tool<br>&emsp;+ AWS Official Icon Set 2024<br>- **Practice:** Draw a basic 3-tier Web App model.                      | 16/09/2025 | 17/09/2025 | [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)                                |
-| 4       | - **S3 Workshop Practice:**<br>&emsp;+ Create an S3 Bucket<br>&emsp;+ Upload HTML/CSS files<br>&emsp;+ Configure Static Website Hosting<br>&emsp;+ Fix Permission errors (403) | 17/09/2025 | 18/09/2025 | [Host Static Website S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html) |
-| 5       | - **EVENT:** Participate in Vietnam Cloud Day 2025.                                                                                                                            | 18/09/2025 | 18/09/2025 | [Vietnam Cloud Day 2025](../../4-eventparticipated/4.2-event2/)                                     |
-| 6       | - Write a Summary Report for the Cloud Day event.                                                                                                                              | 19/09/2025 | 19/09/2025 | —                                                                                                   |
+**2. Working with S3 Storage**
+- Learned about Amazon S3 and object storage concepts.
+- Created buckets and managed file uploads.
+- Integrated EC2 with S3 for data storage and access.
 
-### Week 2 Achievements:
+**3. Networking Setup with VPC**
+- Studied AWS networking components (VPC, subnet, route table).
+- Created VPC and configured public/private subnets.
+- Set up Internet Gateway and NAT Gateway.
+- Configured network security using Security Groups and NACLs.
 
-**1. Amazon S3 & Storage:**
+**4. System Integration & Access Control**
+- Combined EC2, VPC, and S3 into a basic working architecture.
+- Assigned IAM roles to allow EC2 to access AWS services.
+- Verified connectivity and interactions between components.
 
-- Understood S3 storage classes for cost optimization.
-- Learned how to configure Bucket Policy for data sharing or protection.
-- Successfully hosted a static website on S3 and accessed it over the Internet.
+**5. Team Collaboration & Project Direction**
+- Discussed and refined the project topic with team members.
+- Set up a shared EC2 environment for collaboration.
+- Joined user groups and coordinated work on shared resources.
 
-**2. Diagramming Skills:**
+---
 
-- Became proficient with Draw.io using official AWS icons.
-- Drew a basic data flow diagram for a web application.
+### Achievements
+
+**1. Gained practical experience in cloud server deployment**
+- Able to provision and configure EC2 instances independently.
+- Understood the lifecycle of deploying a server in the cloud.
+
+**2. Developed understanding of cloud storage systems**
+- Learned how to use S3 for scalable and reliable data storage.
+- Recognized the role of object storage in cloud architectures.
+
+**3. Acquired foundational knowledge of AWS networking**
+- Understood how to design and configure a VPC architecture.
+- Learned how to manage traffic flow and network security.
+
+**4. Built a basic system integration mindset**
+- Started combining multiple AWS services into a cohesive system.
+- Understood interactions between compute, storage, and networking.
+
+**5. Improved collaboration in a shared cloud environment**
+- Gained experience working on shared infrastructure.
+- Aligned better on project direction and implementation approach.
+
+---
+
+### References
+- https://docs.aws.amazon.com/ec2/index.html
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Các events đã tham gia"
 date: 2025-09-07
-weight: 3
+weight: 30
 chapter: false
 pre: " <b> 3. </b> "
 ---

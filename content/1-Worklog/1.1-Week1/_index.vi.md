@@ -1,46 +1,57 @@
 ---
-title: "Worklog Tuần 1"
+title: "Tuần 1"
 date: 2025-09-07
-weight: 1
+weight: 11
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
+## Tuần 1 (09/03/2026 - 13/03/2026)
 
-### Mục tiêu tuần 1:
+### Công việc đã làm
+**1. Kiến thức nền tảng về AWS**
+- Tìm hiểu tổng quan về điện toán đám mây và vai trò của AWS.
+- Đọc tài liệu cơ bản và tài liệu chính thức để nắm các khái niệm cốt lõi.
+- Xem video hướng dẫn để bổ trợ việc hiểu kiến thức lý thuyết.
 
-- Onboarding và thiết lập môi trường làm việc.
-- Nắm vững kiến thức nền tảng về Cloud Computing và AWS Global Infrastructure.
-- Làm quen với IAM và bảo mật tài khoản cơ bản.
+**2. Thiết lập tài khoản & làm quen môi trường**
+- Tạo tài khoản AWS và thực hiện các cấu hình ban đầu.
+- Làm quen với AWS Management Console và cách sử dụng các dịch vụ.
+- Trải nghiệm một số dịch vụ cơ bản trong môi trường Free Tier.
 
-### Các công việc cần triển khai trong tuần này:
+**3. Quản lý định danh & bảo mật (IAM)**
+- Nghiên cứu cơ chế IAM và nguyên tắc phân quyền.
+- Thực hành tạo IAM User, phân quyền truy cập theo vai trò.
+- Thiết lập các cấu hình bảo mật cơ bản cho tài khoản.
 
-| **Ngày** | **Nhiệm vụ**                                                                                                                                                                                                                                                   | **Bắt đầu** | **Hoàn thành** | **Tài liệu tham khảo**                                                                                        |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | -------------- | ------------------------------------------------------------------------------------------------------------- |
-| 2        | - Làm quen với các thành viên FCJ.<br>- Đọc và lưu ý các nội quy, quy định đào tạo.<br>- Tìm hiểu AWS và các nhóm dịch vụ chính:<br>&emsp;+ Compute (EC2, Lambda)<br>&emsp;+ Storage (S3, EBS)<br>&emsp;+ Networking (VPC)<br>&emsp;+ Database (RDS, DynamoDB) | 08/09/2025  | 08/09/2025     | [AWS Cloud Concepts](https://aws.amazon.com/what-is-cloud-computing/)                                         |
-| 3        | - Tạo AWS Free Tier account.<br>- Cấu hình MFA cho Root User.<br>- Thiết lập Billing Alarm (ngưỡng $5).                                                                                                                                                        | 09/09/2025  | 10/09/2025     | [Create AWS Account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) |
-| 4        | - Tìm hiểu AWS Console & AWS CLI.<br>- **Thực hành:**<br>&emsp;+ Cài đặt AWS CLI v2<br>&emsp;+ Cấu hình aws configure<br>&emsp;+ Thử các lệnh CLI cơ bản                                                                                                       | 10/09/2025  | 11/09/2025     | [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)              |
-| 5        | - Tìm hiểu **Secure Architectures** (Phần 1 - IAM):<br>&emsp;+ IAM User, Group, Role<br>&emsp;+ Policy & Permissions<br>&emsp;+ Principle of Least Privilege<br>- **Thực hành:** Tạo User Admin và phân quyền.                                                 | 11/09/2025  | 12/09/2025     | [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)                    |
-| 6        | - Tìm hiểu hạ tầng toàn cầu AWS:<br>&emsp;+ Region<br>&emsp;+ Availability Zone (AZ)<br>&emsp;+ Edge Location                                                                                                                                                  | 12/09/2025  | 13/09/2025     | [Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure/)                              |
+**4. Quản lý chi phí & hỗ trợ kỹ thuật**
+- Tìm hiểu và thiết lập AWS Budget để kiểm soát chi phí.
+- Làm quen với AWS Support và các hình thức hỗ trợ.
 
-### Kết quả đạt được tuần 1:
+**5. Định hướng dự án & làm việc nhóm**
+- Làm quen với môi trường làm việc và các thành viên trong nhóm.
+- Thảo luận và đề xuất ý tưởng ban đầu cho dự án ứng dụng AWS.
 
-**1. Kiến thức nền tảng AWS:**
+---
 
-- Hiểu khái niệm Cloud Computing và các mô hình IaaS, PaaS, SaaS.
-- Nắm được các nhóm dịch vụ cốt lõi: Compute, Storage, Networking, Database.
-- Hiểu cấu trúc hạ tầng toàn cầu (Region, AZ) để thiết kế hệ thống bền vững (Resilient).
+### Kết quả đạt được
 
-**2. Quản lý tài khoản & Bảo mật (IAM):**
+**1. Hình thành nền tảng kiến thức cloud**
+- Hiểu được các khái niệm cốt lõi của điện toán đám mây và cách AWS tổ chức hệ thống dịch vụ.
+- Nhận thức được vai trò của từng nhóm dịch vụ trong việc xây dựng một hệ thống thực tế.
 
-- Đã tạo và cấu hình AWS Free Tier account thành công.
-- Kích hoạt MFA bảo vệ tài khoản Root.
-- Thiết lập cảnh báo chi phí (Billing Alarm) để kiểm soát ngân sách.
-- Hiểu và áp dụng được các khái niệm IAM: User, Group, Policy.
+**2. Làm quen môi trường AWS**
+- Thiết lập thành công tài khoản với các cấu hình cơ bản, đảm bảo khả năng sử dụng lâu dài.
+- Có thể tự thao tác và điều hướng trong AWS Management Console.
+- Hiểu và áp dụng được mô hình quản lý người dùng thông qua IAM.
+- Bước đầu xây dựng được tư duy phân quyền hợp lý trong hệ thống.
 
-**3. Kỹ năng công cụ (CLI):**
+**3. Xác định hướng đi ban đầu cho dự án**
+- Có được ý tưởng sơ bộ cho bài toán thực hành.
+- Định hình được cách tiếp cận sử dụng AWS trong quá trình phát triển dự án.
 
-- Cài đặt và cấu hình thành công AWS CLI trên máy cá nhân.
-- Nắm được các thông tin cấu hình: Access Key, Secret Key, Region mặc định.
-- Thực hiện được các lệnh cơ bản: aws s3 ls, aws ec2 describe-instances, aws iam list-users.
+---
+
+### Tài liệu tham khảo
+- https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html
 
 ---

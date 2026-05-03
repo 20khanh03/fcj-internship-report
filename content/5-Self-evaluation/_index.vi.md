@@ -1,7 +1,7 @@
 ---
 title: "Tự đánh giá"
 date: 2025-12-03
-weight: 5
+weight: 50
 chapter: false
 pre: " <b> 5. </b> "
 alwaysopen: true

@@ -9,23 +9,23 @@ chapter: false
 
 ### Student Information:
 
-&emsp; **Full Name:** Nguyen Nhat Kim Ngan
+&emsp; **Full Name:** Trần Hoàng Khanh
 
-&emsp; **Phone Number:** +84 333 982 942
+&emsp; **Phone Number:** 0358247351
 
-&emsp; **Email:** ngannnkse182088@fpt.edu.vn
+&emsp; **Email:** 20hoangkhanh03@gmail.com
 
-&emsp; **University:** Ho Chi Minh FPT University
+&emsp; **University:** SaiGon University
 
-&emsp; **Major:** Software Engineering
+&emsp; **Major:** Computer Science
 
-&emsp; **Class:** OJT202
+&emsp; **Class:** DCT1215
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 09/03/2026 to 02/05/2026
 
 ![Profile picture](/images/avatar.jpg)
 

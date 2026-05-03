@@ -1,38 +1,69 @@
 ---
-title: "Worklog Tuần 2"
+title: "Tuần 2"
 date: 2025-09-14
-weight: 2
+weight: 12
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Mục tiêu tuần 2:
+## Tuần 2 (16/03/2026 - 20/03/2026)
 
-- Làm quen với Storage Service (S3).
-- Học cách thiết kế kiến trúc trên giấy (Diagram).
-- Tham gia sự kiện công nghệ.
+### Công việc đã làm
 
-### Các công việc cần triển khai trong tuần này:
+**1. Tìm hiểu và triển khai dịch vụ EC2 (Compute)**
+- Đọc tài liệu AWS và xem video hướng dẫn về Amazon EC2.
+- Thực hành khởi tạo EC2 instance và cấu hình cơ bản.
+- Kết nối tới EC2 Linux thông qua SSH (sử dụng VS Code).
+- Thiết lập môi trường máy chủ và cài đặt web server (Nginx).
 
-| **Ngày** | **Nhiệm vụ**                                                                                                                                                                  | **Bắt đầu** | **Hoàn thành** | **Tài liệu tham khảo**                                                                              |
-| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | -------------- | --------------------------------------------------------------------------------------------------- |
-| 2        | - Tìm hiểu Amazon S3:<br>&emsp;+ Bucket & Object<br>&emsp;+ Storage Classes (Standard, Intelligent-Tiering...)<br>&emsp;+ Bucket Policy & ACL                                 | 15/09/2025  | 15/09/2025     | [Amazon S3 Overview](https://aws.amazon.com/s3/)                                                    |
-| 3        | - Học vẽ kiến trúc AWS:<br>&emsp;+ Công cụ Draw.io<br>&emsp;+ Bộ Icon chuẩn AWS 2024<br>- **Thực hành:** Vẽ mô hình Web App 3-tier cơ bản.                                    | 16/09/2025  | 17/09/2025     | [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)                                |
-| 4        | - **Thực hành Workshop S3:**<br>&emsp;+ Tạo Bucket<br>&emsp;+ Upload file HTML/CSS<br>&emsp;+ Cấu hình Static Website Hosting<br>&emsp;+ Xử lý lỗi Permission (403 Forbidden) | 17/09/2025  | 18/09/2025     | [Host Static Website S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html) |
-| 5        | - **EVENT:** Tham gia Vietnam Cloud Day 2025.                                                                                                                                 | 18/09/2025  | 18/09/2025     | [Vietnam Cloud Day 2025](../../4-eventparticipated/4.2-event2/)                                     |
-| 6        | - Viết Summary Report của sự kiện Cloud Day.<br>                                                                                                                              | 19/09/2025  | 19/09/2025     | —                                                                                                   |
+**2. Làm việc với dịch vụ lưu trữ S3**
+- Tìm hiểu cơ chế lưu trữ object storage của Amazon S3.
+- Thực hành tạo bucket và upload/ quản lý file trên S3.
+- Kết hợp EC2 với S3 trong việc lưu trữ và truy xuất dữ liệu.
 
-### Kết quả đạt được tuần 2:
+**3. Thiết lập và cấu hình mạng (VPC)**
+- Đọc tài liệu và tìm hiểu kiến trúc mạng trong AWS (VPC, subnet, route table).
+- Thực hành tạo VPC, cấu hình các subnet (public/private).
+- Thiết lập các thành phần mạng như Internet Gateway, NAT Gateway.
+- Cấu hình bảo mật tầng mạng với Security Group và NACL.
 
-**1. Amazon S3 & Storage:**
+**4. Tích hợp hệ thống và phân quyền**
+- Kết hợp EC2, VPC và S3 để hình thành hệ thống cơ bản.
+- Cấu hình IAM role để cấp quyền cho EC2 truy cập các dịch vụ AWS.
+- Kiểm tra khả năng kết nối và hoạt động giữa các thành phần.
 
-- Hiểu rõ các lớp lưu trữ S3 để tối ưu chi phí (Cost-Optimized).
-- Biết cách cấu hình Bucket Policy để chia sẻ hoặc bảo mật dữ liệu.
-- Đã tự tay host thành công một website tĩnh lên S3 và truy cập được qua Internet.
+**5. Làm việc nhóm và định hướng dự án**
+- Thảo luận với nhóm để làm rõ và refine đề tài project.
+- Thiết lập môi trường làm việc chung (shared EC2 instance).
+- Tham gia user groups và phối hợp làm việc trên cùng hệ thống.
 
-**2. Kỹ năng thiết kế (Diagramming):**
+---
 
-- Sử dụng thành thạo Draw.io với bộ icon chuẩn.
-- Vẽ được sơ đồ luồng dữ liệu cơ bản cho một ứng dụng web.
+### Kết quả đạt được
+
+**1. Làm chủ việc triển khai máy chủ trên cloud**
+- Có khả năng tự tạo và cấu hình EC2 instance phục vụ cho việc triển khai ứng dụng.
+- Hiểu được quy trình đưa một server từ trạng thái khởi tạo đến hoạt động thực tế.
+
+**2. Hiểu và áp dụng mô hình lưu trữ phân tán**
+- Nắm được cách sử dụng S3 để lưu trữ và quản lý dữ liệu.
+- Nhận thức được vai trò của object storage trong hệ thống cloud.
+
+**3. Nắm được kiến trúc mạng cơ bản trên AWS**
+- Hiểu cách thiết kế và triển khai VPC với các thành phần mạng chính.
+- Biết cách kiểm soát luồng truy cập thông qua subnet, route table và gateway.
+
+**4. Hình thành tư duy xây dựng hệ thống hoàn chỉnh**
+- Bắt đầu kết nối các dịch vụ riêng lẻ thành một hệ thống có cấu trúc.
+- Hiểu được mối quan hệ giữa compute, storage và network trong thực tế.
+
+**5. Cải thiện khả năng làm việc nhóm trên môi trường cloud**
+- Làm quen với việc sử dụng tài nguyên chung và phối hợp triển khai.
+- Thống nhất được hướng đi rõ ràng hơn cho project.
+
+---
+
+### Tài liệu tham khảo
+- https://docs.aws.amazon.com/ec2/index.html
 
 ---

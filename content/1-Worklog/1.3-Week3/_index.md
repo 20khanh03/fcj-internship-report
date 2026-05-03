@@ -1,38 +1,51 @@
 ---
-title: "Week 3 Worklog"
+title: "Week 3"
 date: 2025-09-07
-weight: 3
+weight: 13
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-### Week 3 Objectives:
 
-- Master the Compute service (EC2).
-- Understand High-Performing Architectures (Scaling, Load Balancing).
+## Week 3 (23/03/2026 - 27/03/2026)
 
-### Tasks to be carried out this week:
+### Tasks Completed
 
-| **Day** | **Tasks**                                                                                                                                                        | **Start**  | **Finish** | **References**                                                                                 |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ---------------------------------------------------------------------------------------------- |
-| 2       | - Learn EC2 basics:<br>&emsp;+ Instance types (General, Compute, Memory optimized)<br>&emsp;+ AMI (Amazon Machine Image)<br>&emsp;+ Key Pair                     | 22/09/2025 | 22/09/2025 | [EC2 Instance Types](https://aws.amazon.com/ec2/instance-types/)                               |
-| 3       | - Learn EBS (Elastic Block Store):<br>&emsp;+ Volume types (gp2, gp3, io1)<br>&emsp;+ Snapshot & Backup<br>- Learn Security Groups (virtual firewall).           | 23/09/2025 | 24/09/2025 | [EBS Volume Types](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)     |
-| 4       | - Learn **High-Performing Architectures**:<br>&emsp;+ Elastic Load Balancing (ELB)<br>&emsp;+ EC2 Auto Scaling<br>&emsp;+ Vertical vs Horizontal Scaling         | 24/09/2025 | 24/09/2025 | [ELB Product Page](https://aws.amazon.com/elasticloadbalancing/)                               |
-| 5       | - **Lab Practice:**<br>&emsp;+ Launch EC2 Linux<br>&emsp;+ SSH remote access<br>&emsp;+ Install Web Server (Apache/Nginx)<br>&emsp;+ Create ALB for traffic load | 25/09/2025 | 25/09/2025 | [EC2 Getting Started](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) |
-| 6       | - Review EC2 & EBS knowledge learned.<br>- Summarize common SSH connection issues.                                                                               | 26/09/2025 | 26/09/2025 | —                                                                                              |
+**1. Advanced Infrastructure (EC2 & VPC)**
+- Explored advanced EC2 concepts (AMI, key pair, EBS).
+- Studied related services such as Auto Scaling, Lightsail, and EFS/FSx.
+- Connected to EC2 instances using multiple tools (SSH, MobaXterm, PuTTY).
 
-### Week 3 Achievements:
+**2. Web Application Deployment**
+- Deployed a simple web application on EC2.
+- Configured runtime environment on the server.
+- Verified application access via public IP.
 
-**1. Amazon EC2 & Compute:**
+**3. Database Systems Implementation**
+- Set up RDS (MySQL) for relational data.
+- Designed NoSQL schema using DynamoDB.
 
-- Distinguished EC2 Instance Types (T, M, C, R) for optimal performance/cost.
-- Understood EC2 Instance lifecycle (Pending → Running → Stopping → Terminated).
-- Managed EBS Volumes: create, attach, and backup using snapshots.
+**4. Application Foundation (Frontend & Backend)**
+- Initialized GitHub repository and project structure.
+- Built frontend with React and Tailwind CSS layout.
+- Set up backend using AWS SAM.
 
-**2. High Performance & Scalability:**
+---
 
-- Understood the role of Load Balancer in traffic distribution.
-- Understood how Auto Scaling Group helps scale during high load.
-- Successfully SSH’ed into a server and installed a basic web application.
+### Achievements
+
+**1. Successfully deployed a working web application**
+- Able to host and access applications over the internet.
+- Understood deployment workflow from local to cloud.
+
+**3. Understood storage and content delivery strategies**
+- Learned how S3 and CDN contribute to system performance.
+- Integrated frontend, backend, and authentication.
+- Established a working foundation for the project system.
+
+---
+
+### References
+- https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 
 ---

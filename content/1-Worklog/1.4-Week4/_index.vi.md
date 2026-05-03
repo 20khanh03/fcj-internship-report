@@ -1,38 +1,44 @@
 ---
-title: "Worklog Tuần 4"
+title: "Tuần 4"
 date: 2025-09-28
-weight: 4
+weight: 14
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
+## Tuần 4 (30/03/2026 - 03/04/2026)
 
-### Mục tiêu tuần 4:
+### Công việc đã làm
 
-- Chuyên sâu về Networking (VPC).
-- Tìm hiểu về Resilient Architectures (Kiến trúc bền vững).
+**1. Định hình kiến trúc hệ thống cho ứng dụng học tiếng Anh**
+- Phân tích yêu cầu và xác định các module chính: AI Tutor, Flashcard SRS, Lessons, Dashboard.
+- Thiết kế kiến trúc tổng thể theo hướng serverless kết hợp frontend SPA.
+- Xác định luồng dữ liệu giữa frontend, backend và các dịch vụ AWS.
+- Thiết kế và xây dựng các API cơ bản bằng AWS SAM.
+- Định nghĩa các endpoint phục vụ đăng nhập, đăng ký và quản lý người dùng.
 
-### Các công việc cần triển khai trong tuần này:
+**2. Khởi tạo và tổ chức frontend (React)**
+- Xây dựng cấu trúc dự án frontend theo hướng module hóa.
+- Thiết kế layout cơ bản: Sidebar, Header, Player bar.
+- Tạo các UI components nền tảng phục vụ cho các tính năng sau.
 
-| **Ngày** | **Nhiệm vụ**                                                                                                                                               | **Bắt đầu** | **Hoàn thành** | **Tài liệu tham khảo**                                                                                                                         |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2        | - Tìm hiểu VPC (Virtual Private Cloud):<br>&emsp;+ CIDR Block<br>&emsp;+ Subnet (Public vs Private)<br>&emsp;+ Route Table                                 | 29/09/2025  | 30/09/2025     | [What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)                                                |
-| 3        | - Tìm hiểu các cổng kết nối:<br>&emsp;+ Internet Gateway (IGW)<br>&emsp;+ NAT Gateway (cho Private Subnet)<br>- **Thực hành:** Thiết kế VPC Custom từ đầu. | 30/09/2025  | 01/10/2025     | [VPC Scenarios](https://www.google.com/search?q=https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenarios.html)                           |
-| 4        | - Tìm hiểu **Resilient Architectures**:<br>&emsp;+ Multi-AZ deployment<br>&emsp;+ Backup & Restore strategies<br>&emsp;+ Route 53 (DNS & Failover)         | 01/10/2025  | 01/10/2025     | [Disaster Recovery](https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html) |
-| 5        | - **Thực hành:**<br>&emsp;+ Cấu hình Route Table cho Public/Private subnet<br>&emsp;+ Test kết nối Internet từ Private Subnet qua NAT                      | 02/10/2025  | 02/10/2025     | —                                                                                                                                              |
-| 6        | - Dịch 3 bài Blog kỹ thuật (chủ đề VPC, Serverless, Security).<br>- Tổng kết module Networking.                                                            | 03/10/2025  | 03/10/2025     | [AWS Blogs](https://aws.amazon.com/blogs/)                                                                                                     |
+**3. Thiết kế database**
+- Thiết kế schema cho DynamoDB phục vụ các module:
+  - Lưu lịch sử hội thoại AI Tutor
+  - Quản lý flashcard và tiến độ học (SRS)
+  - Theo dõi thống kê người dùng (Dashboard)
+- Xác định các access pattern chính để tối ưu truy vấn.
 
-### Kết quả đạt được tuần 4:
+---
 
-**1. Networking (VPC):**
+### Kết quả đạt được
 
-- Hiểu sâu về luồng đi của gói tin trong mạng AWS.
-- Phân biệt rõ ràng vai trò của Security Group (cấp Instance) và NACL (cấp Subnet).
-- Tự thiết kế được hệ thống mạng an toàn: Web Server ở Public Subnet, DB Server ở Private Subnet.
+- Có tổng thể về hệ thống và mối liên kết giữa các module.
+- Định hình được cách triển khai ứng dụng trên nền tảng AWS.
+- Xây dựng khung giao diện ứng dụng
+- Chưa hoàn thiện về UX và chưa kết nối đầy đủ với backend.
 
-**2. Resilient Architectures:**
+---
 
-- Nắm vững khái niệm Multi-AZ để đảm bảo tính sẵn sàng cao (High Availability).
-- Biết cách sử dụng NAT Gateway để bảo mật các instance backend.
-- Hoàn thành việc dịch tài liệu chuyên ngành để củng cố kiến thức.
-
+### Tài liệu tham khảo
+- https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html
 ---

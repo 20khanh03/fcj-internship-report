@@ -9,23 +9,23 @@ chapter: false
 
 ### Thông tin sinh viên:
 
-&emsp; **Họ và tên:** Nguyễn Nhật Kim Ngân
+&emsp; **Họ và tên:** Trần Hoàng Khanh
 
-&emsp; **Số điện thoại:** +84 333 982 942
+&emsp; **Số điện thoại:** 0358247351
 
-&emsp; **Email:** ngannnkse182088@fpt.edu.vn
+&emsp; **Email:** 20hoangkhanh03@gmail.com
 
-&emsp; **Trường:** Đại học FPT Hồ Chí Minh
+&emsp; **Trường:** Đại học Sài Gòn - TP. Hồ Chí Minh
 
-&emsp; **Ngành:** Kỹ Thuật Phần Mềm
+&emsp; **Ngành:** Khoa học máy tính
 
-&emsp; **Lớp:** OJT202
+&emsp; **Lớp:** DCT1215
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 08/09/2025 đến ngày 28/12/2025
+&emsp; **Thời gian thực tập:** Từ ngày 9/03/2026  đến ngày 02/05/2026
 
 ![Ảnh đại diện](/images/avatar.jpg)
 

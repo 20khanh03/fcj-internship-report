@@ -1,38 +1,33 @@
 ---
 title: "Nhật ký công việc"
-date: 2025-09-07
-weight: 1
+date: 2026-05-01
+weight: 10
 chapter: false
 pre: "<b>1.</b> "
 ---
 
-**Trong trang này**, mình sẽ chia sẻ toàn bộ hành trình thực tập tại FCJ (First Cloud Journey) – chương trình đào tạo kéo dài **14 tuần** (từ 08/09/2025 đến 14/12/2025). Đây là lần đầu tiên mình tiếp cận một cách bài bản và thực hành thực tế toàn bộ các dịch vụ AWS từ mức cơ bản đến nâng cao, đồng thời hoàn thành một dự án nhóm Serverless mang tên **Serverless Student Management System**.
+Tổng hợp toàn bộ quá trình thực hiện dự án phát triển một ứng dụng học tiếng Anh tích hợp AI trong vòng **9 tuần** (từ 09/03/2026 đến 08/05/2026).
 
-Trong suốt 3.5 tháng thực tập, mình đã đi qua các giai đoạn:
+Dự án được xây dựng theo hướng **serverless trên AWS**, tập trung vào việc tận dụng các dịch vụ managed để giảm thời gian triển khai và tối ưu chi phí. M
 
-- Tuần 1-4: Xây dựng nền tảng AWS (IAM, S3, EC2, VPC, Database…)
-- Tuần 5-6: Học Decoupling, Security nâng cao và khởi động ý tưởng dự án
-- Tuần 7-8: Chọn đề tài, thiết kế kiến trúc và ôn thi giữa kỳ (4 trụ cột: Security, Resilience, Performance, Cost Optimization)
-- Tuần 9-10: Phân tích nghiệp vụ, viết Proposal, thiết kế UI/UX
-- Tuần 11-13: Phát triển Frontend (React + TypeScript), tích hợp Cognito, API Gateway, CloudFront + WAF, Route53
+Trong quá trình thực hiện, dự án được chia thành các giai đoạn chính:
 
-Dưới đây là tóm tắt công việc từng tuần:
+**Tuần 1:**  
+[Tìm hiểu tổng quan về AWS, tạo tài khoản, làm quen IAM, AWS Console và các dịch vụ cơ bản.](1.1-week1/)
 
-**Tuần 1:** [Onboarding, IAM, AWS Global Infrastructure](1.1-week1/)
+**Tuần 2:**  [Thực hành với EC2, S3 và VPC.](1.2-week2/)
 
-**Tuần 2:** [Tìm hiểu Amazon S3, Static Website Hosting và làm quen thao tác Draw.io](1.2-week2/)
+**Tuần 3:**  [Thử nghiệm triển khai ứng dụng web trên EC2, tìm hiểu thêm về database, bắt đầu setup frontend/backend.](1.3-week3/)
 
-**Tuần 3:** [Tìm hiểu EC2, EBS, Security Group, Load Balancing, Auto Scaling](1.3-week3/)
+**Tuần 4:**  [Xây dựng nền tảng hệ thống.](1.4-week4/)
 
-**Tuần 4:** [Tìm hiểu VPC, Subnet, NAT Gateway, Resilient Architecture](1.4-week4/)
+**Tuần 5:**  [Xây dựng AI Tutor và Flashcard SRS.](1.5-week5/)
 
-**Tuần 5:** [Tìm hiểu RDS, DynamoDB, Well-Architected Framework](1.5-week5/)
+**Tuần 6:**  [Cải thiện AI Tutor và Flashcard, tích hợp hệ thống hoàn chỉnh hơn.](1.6-week6/)
 
-**Tuần 6:** [Tìm hiểu SQS, SNS, KMS, Secrets Manager, chọn Serverless](1.6-week6/)
+**Tuần 7:**  [Tích hợp voice realtime và xây dựng Dashboard theo dõi tiến độ.](1.7-week7/)
 
-**Tuần 7:** [Chọn đề tài dự án, vẽ Architecture, bắt đầu ôn thi giữa kỳ](1.7-week7/)
+**Tuần 8:**  [Kiểm thử end-to-end, fix bug và deploy hệ thống.](1.8-week8/)
 
-**Tuần 8:** [Ôn thi giữa kỳ và hoàn thành bài thi](1.8-week8/)
-
-**Tuần 9:** [Phân tích Use Cases, Flowchart, ERD, viết Proposal, dự toán chi phí](1.9-week9/)
+**Tuần 9:**  [Demo và Báo cáo.](1.9-week9/)
 

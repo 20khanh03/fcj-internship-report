@@ -6,7 +6,7 @@ chapter: false
 pre: "<b>1.</b> "
 ---
 
-Tổng hợp toàn bộ quá trình thực hiện dự án phát triển một ứng dụng học tiếng Anh tích hợp AI trong vòng **9 tuần** (từ 09/03/2026 đến 08/05/2026).
+Tổng hợp toàn bộ quá trình thực hiện dự án phát triển một ứng dụng học tiếng Anh tích hợp AI trong vòng **8 tuần** (từ 09/03/2026 đến 08/05/2026).
 
 Dự án được xây dựng theo hướng **serverless trên AWS**, tập trung vào việc tận dụng các dịch vụ managed để giảm thời gian triển khai và tối ưu chi phí.
 
@@ -27,6 +27,4 @@ Trong quá trình thực hiện, dự án được chia thành các giai đoạn
 **Tuần 7:**  [Tích hợp voice realtime và xây dựng Dashboard theo dõi tiến độ.](1.7-week7/)
 
 **Tuần 8:**  [Kiểm thử end-to-end, fix bug và deploy hệ thống.](1.8-week8/)
-
-**Tuần 9:**  [Demo và Báo cáo.](1.9-week9/)
 

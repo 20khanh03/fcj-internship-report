@@ -6,7 +6,7 @@ chapter: false
 pre: "<b>1.</b> "
 ---
 
-This page summarizes the entire development process of an AI-powered English learning application over a period of **9 weeks** (from 09/03/2026 to 08/05/2026).
+This page summarizes the entire development process of an AI-powered English learning application over a period of **8 weeks** (from 09/03/2026 to 08/05/2026).
 
 The project was built using a **serverless architecture on AWS**, focusing on leveraging managed services to reduce development time and optimize costs.
 
@@ -36,5 +36,3 @@ During the development process, the project was divided into the following main 
 **Week 8:**  
 [End-to-end testing, bug fixing, and system deployment.](1.8-week8/)
 
-**Week 9:**  
-[Final demo and project report.](1.9-week9/)
